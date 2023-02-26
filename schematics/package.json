@@ -1,0 +1,26 @@
+{
+  "name": "@promonkeyli/react-schematics",
+  "version": "0.0.0",
+  "description": "schematics for react",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics",
+    "react schematics"
+  ],
+  "author": "promonkeyli",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^15.2.0",
+    "@angular-devkit/schematics": "^15.2.0",
+    "typescript": "~4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.15.0",
+    "@types/jasmine": "~4.3.0",
+    "jasmine": "^4.0.0"
+  }
+}
